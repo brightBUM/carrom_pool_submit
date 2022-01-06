@@ -29,7 +29,7 @@ public class StrikerController : MonoBehaviour
     public bool overlapping;
     Touch _touch;
     bool objectselected = false;
-
+    float ypos;
 
     // Start is called before the first frame update
     private void Awake()
@@ -39,6 +39,7 @@ public class StrikerController : MonoBehaviour
     void Start()
     {
         mouseptB.SetActive(false);
+        ypos = transform.position.y;
     }
 
     // Update is called once per frame
@@ -127,6 +128,8 @@ public class StrikerController : MonoBehaviour
         Vector3 push = shootdirection * Mathf.Abs(safeSpace) * power * -1;
         rb.AddForce(push, ForceMode2D.Impulse);
     }
+
+    
     private void OnTriggerStay2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Token"))
