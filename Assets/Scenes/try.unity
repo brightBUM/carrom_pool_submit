@@ -972,7 +972,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -0.56, y: 184.598}
+  m_AnchoredPosition: {x: -0.56, y: 492}
   m_SizeDelta: {x: 443.382, y: 65.924}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &424321275
@@ -1022,7 +1022,7 @@ MonoBehaviour:
   m_MinValue: -1.353
   m_MaxValue: 1.366
   m_WholeNumbers: 0
-  m_Value: -0.18
+  m_Value: 1.366
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -2036,8 +2036,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -25.244995, y: 0}
-  m_SizeDelta: {x: -50.49, y: 0}
+  m_AnchoredPosition: {x: 31.246, y: 0}
+  m_SizeDelta: {x: 520.612, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1102795656
 GameObject:
@@ -2230,7 +2230,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -2954,17 +2954,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1824014136}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.89872503, y: 0.89872503, z: 0.89872503}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1091679667}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 25.262, y: -4}
-  m_SizeDelta: {x: 70.525, y: 0}
+  m_AnchoredPosition: {x: -32.285, y: 0}
+  m_SizeDelta: {x: 164.57, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1824014138
 MonoBehaviour:
@@ -3206,7 +3206,7 @@ MonoBehaviour:
   strikeslider: {fileID: 424321275}
   _strikerbar: {fileID: 424321276}
   maxDistance: 2
-  power: 5
+  power: 10
   rb: {fileID: 2039293244}
   c2d: {fileID: 2039293242}
   tokencd: {fileID: 0}
@@ -3214,6 +3214,7 @@ MonoBehaviour:
   tokendis: {x: 0, y: 0}
   _bararea: {fileID: 1698968684}
   glow: {fileID: 339892034}
+  cam: {fileID: 1075114222}
   overlapping: 0
 --- !u!1 &2066899494
 GameObject:
